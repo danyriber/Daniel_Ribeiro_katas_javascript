@@ -27,7 +27,7 @@ const generos = {
 
 for(const track of tracks){
     if (track.genre === "Rock"){
-        generos[Metal].push(track);
+        generos["Metal"].push(track);
     
     }
 }
