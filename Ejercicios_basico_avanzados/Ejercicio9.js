@@ -9,14 +9,12 @@ Puedes usar este array para probar tu función:*/
 const numbers = [1, 2, 3, 5, 45, 37, 58];
 
 function sumaNumeros(numeros) {
-  let resultado = "";
-  for (numero of numeros) {
-    if (numero < resultado) { 
-    numero = (resultado + numero) }
-    resultado = numero
-  }
-    console.log(resultado)
+  let resultado = 0;
+  for (let numero of numeros){
+    resultado = resultado + numero;
 
+  }
+  console.log(resultado)
 }
 
 sumaNumeros(numbers);

@@ -7,15 +7,40 @@ Modifica el siguiente código JavaScript para actualizar la edad de Luke Skywalk
 const jedi = {nombre: "Luke Skywalker", edad: 19};
 jedi.edad = 25;
 
+/*2. Presentación al estilo Leia Organa:
+
+Crea tres variables con la siguiente información:
+nombre: "Leia"
+
+apellido: "Organa"
+
+edad: 20
+
+Muestra un mensaje por consola que siga la siguiente estructura:
+"Soy Leia Organa, tengo 20 años y soy una princesa de Alderaan."
+
+*/
+
 const nombre = "Leia";
 const apellido = "Organa";
 const edad = 20;
 console.log(`Soy ${nombre} ${apellido}, tengo ${edad} años y soy una princesa de Alderaan.`)
 
+/*
+3. Calculando el coste total de sables de luz:
+
+Obtén el precio total de dos sables de luz: "Shoto de Yoda" y "sable de Darth Vader".
+Imprime el resultado por consola utilizando console.log.*/
+
+
 const sable1 = {nombre: "Shoto de Yoda", precio: 1500};
 const sable2 = {nombre: "Sable de Darth Vader", precio: 2000};
 const totalSables = sable1.precio + sable2.precio;
 console.log(totalSables)
+
+/* Modifica el valor de la variable global precioBaseGlobal a 25.000 créditos.
+Actualiza el precio final (precioFinal) de dos naves ("Ala-X" y "Halcón Milenario")
+ sumando el valor de precioBaseGlobal a su precio base (precioBase).*/
 
 let precioBaseGlobal = 10000;
 const nave1 = {nombre: "Ala-X", precioBase: 50000, precioFinal: 60000};

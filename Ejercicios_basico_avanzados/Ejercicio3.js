@@ -1,6 +1,7 @@
 /*
 Ejercicio 3
-En este ejercicio podéis mostrar directamente los resultados por consola o almacenarlos en variables (esto lo podéis hacer en todos los demás, como os resulte más claro).
+En este ejercicio podéis mostrar directamente los resultados por consola o almacenarlos en variables 
+(esto lo podéis hacer en todos los demás, como os resulte más claro).
 
 3.1 Multiplica 10 por 5 y muestra el resultado mediante console.
 3.2 Divide 10 por 2 y muestra el resultado en un console.
@@ -17,10 +18,11 @@ console.log(10 / 2);
 console.log(15 % 9);
 
 let p = 10, j = 5;
-let o = p + j;    
+let o = p;
+o += j;  // esto es igual a o = o + j que siempre se me olvida
 console.log(o); 
 
 let c = 10, m = 5;
-let i = c;   
-i = c * m;      
-console.log(i); 
+let i = c;
+i *= m; //i = i * m
+console.log(i);

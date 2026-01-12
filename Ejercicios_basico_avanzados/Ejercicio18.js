@@ -17,9 +17,12 @@ const placesToTravel = [
   { id: 59, name: "Madagascar" },
 ];
 
-const arrayfiltered = [];
-for (placetravel in placesToTravel){
-    
+for (let i = placesToTravel.length - 1; i >= 0; i--) {
+  if (placesToTravel[i].id === 11 || placesToTravel[i].id === 40) {
+    placesToTravel.splice(i, 1);
+  }
+}
+
+console.log(placesToTravel);
     
 
-}

@@ -28,7 +28,7 @@ function averageWord(list) {
   for (const element of list) {
     if (typeof element === "number") {
       suma =  suma + element;              
-    } else if (typeof element === String) {
+    } else if (typeof element === "string") {
       suma = suma + element.length;       
     }
   }

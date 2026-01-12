@@ -11,3 +11,5 @@ function greaterNumber(numberOne, numberTwo) {
     console.log("Son iguales:", numberOne);
   }
 }
+
+greaterNumber(5,10);

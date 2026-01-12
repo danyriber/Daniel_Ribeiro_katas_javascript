@@ -6,11 +6,11 @@ Calcular un promedio es una tarea extremadamente común, así que prueba a imple
 
 const valores = [12, 21, 38, 5, 45, 37, 6];
 function promedioNum(numeros) {
-    let promedio = 0;
+    let sumaTodos = 0;
     for ( const numero of numeros) {
-        promedio = promedio + numero;
+        sumaTodos = sumaTodos + numero;
     }
-    promedio = promedio /numeros.length;
+    promedio = sumaTodos /numeros.length;
     console.log(promedio)
 }
 

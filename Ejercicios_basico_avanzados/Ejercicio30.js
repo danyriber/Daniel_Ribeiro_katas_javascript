@@ -26,10 +26,11 @@ const generos = {
 };
 
 for(const track of tracks){
-    if (track.genre === "Rock"){
-        generos["Metal"].push(track);
-    
-    }
+    if (track.genre === "Rock") generos["Rock"].push(track);
+    else if (track.genre === "Metal") generos["Metal"].push(track);
+    else if (track.genre === "Pop") generos["Pop"].push(track);
+    else if (track.genre === "Country") generos["Country"].push(track);
+    else generos["Grunge"].push(track);
 }
 
 console.log(generos);
